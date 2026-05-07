@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sensor Accuracy Across Landscapes | Emma Vail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Sensor Accuracy Across Landscapes</h1>
+    <p>Comparing flood detection performance across sensors and study areas</p>
+  </header>
+
+  <main>
+    <section class="project-page">
+
+      <a href="index.html" class="back-link">← Back to Home</a>
+
+      <img src="images/IMG_6507.jpeg" alt="Sensor accuracy comparison figure" class="project-image">
+
+      <div class="project-text">
+        <h2>AGU Poster</h2>
+
+        <p>
+          The poster presents the full study in a visual format, combining background, methods, results, and mapped examples from each study area. The main takeaway is that flood detection depends strongly on both the sensor and the landscape. Optical sensors, such as Sentinel-2 and PlanetScope, generally produced the clearest and most stable flood maps when cloud cover was not a major issue. Radar sensors, such as Sentinel-1 and ALOS PALSAR-2, were valuable because they can observe through clouds, but their results were more sensitive to surface conditions, urban areas, rough terrain, and narrow river corridors.
+        </p>
+
+        <p>
+          The side-by-side maps make these differences easier to see. Instead of only reporting accuracy scores, the poster shows where sensors agree, where they miss water, and where they detect extra water-like areas. This was important because flood mapping accuracy is not just about a number in a table. It also matters where errors happen, especially if those maps are used to understand which communities, roads, farms, or ecosystems may be at risk.
+        </p>
+      </div>
+
+      <img src="images/IMG_6507.jpeg" alt="Flood sensor accuracy results" class="project-image">
+
+      <div class="project-text">
+        <h2>Findings</h2>
+
+        <p>
+         The graph summarizes how well each sensor identified water across different study areas and terrain settings. Overall, Sentinel-2 performed very strongly and consistently, while the radar-based sensors varied more depending on location. In some cases, adding terrain information, such as slope or hillshade, improved the results by helping the model separate flood water from confusing surfaces like steep terrain, urban areas, or shadowed regions.
+        </p>
+
+        <p>
+          This figure is useful because it condenses many model runs into one comparison. Rather than only asking which sensor had the highest score, it shows how stable each sensor was across different landscapes. The biggest takeaway is that there is no single perfect sensor for flood mapping. Optical imagery performed best in this study, but radar remains important because it can provide observations when optical imagery is limited by clouds or lighting conditions.
+        </p>
+      </div>
+      
+<img src="images/IMG_6507.jpeg" alt="Flood sensor accuracy results" class="project-image">
+
+      <div class="project-text">
+        <h3>Compared to Existing Products</h3>
+
+        <p>
+          The final figure compares my Random Forest flood classification with existing water products, including DSWx and SWOT. This comparison helps place the model results in a more applied context. Existing products are valuable because they are already available and can support rapid flood assessment, but they may not capture local flood patterns in the same way as a site-specific classification model.
+        </p>
+
+        <p>
+          The maps show that the products often identify the same major water features, but they differ in how much scattered or small-scale water they detect. In some areas, the existing products appear more speckled or generalized, while the Random Forest classification produces a more spatially continuous flood pattern. This comparison highlights why product choice matters: different flood maps can tell slightly different stories about the same event, especially when they are used for local-scale interpretation.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+  </footer>
+
+</body>
+</html>
