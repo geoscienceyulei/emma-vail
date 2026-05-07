@@ -124,3 +124,27 @@ footer a {
   color: #1f4e5f;
   font-weight: bold;
 }
+
+.project-page {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.project-page img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.project-text {
+  margin-bottom: 35px;
+}
+
+.project-text h2 {
+  margin-bottom: 10px;
+}
+
+.project-text p {
+  line-height: 1.8;
+}
